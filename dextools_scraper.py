@@ -61,7 +61,8 @@ if __name__ == "__main__":
             page+=1
             pd.DataFrame(main_data).to_csv('Data.csv',index=False,mode='a',header=not os.path.exists('Data.csv'))
             main_data = []
-    except:
+    except Exception as e:
+        print(f"Script Stoped due to {e}")
         pass
 
     
