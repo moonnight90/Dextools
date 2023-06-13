@@ -13,7 +13,7 @@ To run this script, you need to have the following installed:
 You can install the required libraries using the following command:
 
 ```
-pip install pandas requests
+pip install -r requirements.txt
 ```
 
 ## Getting Started
